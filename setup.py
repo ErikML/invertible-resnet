@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'certifi==2019.3.9',
-        'chardet==3.0.4'
+        'chardet==3.0.4',
         'idna==2.8',
         'joblib==0.13.2',
         'numpy==1.16.4',
