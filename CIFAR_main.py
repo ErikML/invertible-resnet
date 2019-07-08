@@ -19,9 +19,9 @@ import argparse
 import pdb
 import random
 import json
-from invertable_resnet.models.utils_cifar import train, test, std, mean, get_hms, interpolate
-from invertable_resnet.models.conv_iResNet import conv_iResNet as iResNet
-from invertable_resnet.models.conv_iResNet import multiscale_conv_iResNet as multiscale_iResNet
+from invertible_resnet.models.utils_cifar import train, test, std, mean, get_hms, interpolate
+from invertible_resnet.models.conv_iResNet import conv_iResNet as iResNet
+from invertible_resnet.models.conv_iResNet import multiscale_conv_iResNet as multiscale_iResNet
 
 parser = argparse.ArgumentParser(description='Train i-ResNet/ResNet on Cifar')
 parser.add_argument('-densityEstimation', '--densityEstimation', dest='densityEstimation',
