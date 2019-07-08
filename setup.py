@@ -2,7 +2,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='invertable_resnets',
+    name='invertible_resnet',
     packages=find_packages(),
     install_requires=[
         'certifi',
