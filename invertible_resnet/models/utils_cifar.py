@@ -4,7 +4,7 @@ import torch.optim as optim
 import torchvision.utils
 from torch.autograd import Variable
 from torch._six import inf
-from models.viz_utils import line_plot, scatter_plot, images_plot
+from invertible_resnet.models.viz_utils import line_plot, scatter_plot, images_plot
 import os
 import sys
 import math

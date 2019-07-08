@@ -12,9 +12,9 @@ import torch.nn.functional as F
 from .model_utils import injective_pad, ActNorm2D, Split
 from .model_utils import squeeze as Squeeze
 from .model_utils import MaxMinGroup
-from spectral_norm_conv_inplace import spectral_norm_conv
-from spectral_norm_fc import spectral_norm_fc
-from matrix_utils import exact_matrix_logarithm_trace, power_series_matrix_logarithm_trace
+from invertible_resnet.spectral_norm_conv_inplace import spectral_norm_conv
+from invertible_resnet.spectral_norm_fc import spectral_norm_fc
+from invertible_resnet.matrix_utils import exact_matrix_logarithm_trace, power_series_matrix_logarithm_trace
 import pdb
 from torch.distributions import constraints
 
